@@ -1,0 +1,22 @@
+# Configuration for the Higher Education Counselling Domain
+domain_name: "higher_ed_counselling"
+local_data_path: "data_sources/higher_ed_counselling/"
+vector_collection_name: "higher_ed_counselling_v1"
+
+# UPDATED list with a more reliable URL
+urls_to_scrape:
+  - "https://www.collegeessayguy.com/blog/college-application-hub"
+  - "https://www.princetonreview.com/college-advice/college-application-timeline"
+  - "https://admissions.tufts.edu/blogs/inside-admissions/post/the-college-application-essay-a-crash-course/"
+  - "https://blog.collegeboard.org/how-start-your-college-application-essay"
+  - "https://www.khanacademy.org/college-careers-more/college-admissions/applying-to-college/introduction-to-the-college-application-process/a/a-complete-guide-to-the-college-application-process"
+  - "https://www.commonapp.org/blog/what-extracurricular-activities-look-good-college"
+  - "https://apply.jhu.edu/essays-that-worked/" # <-- REPLACED GOV URL
+  - "https://mitadmissions.org/blogs/entry/how_to_get_good_letters_of_r/"
+  - "https://www.niche.com/blog/how-to-choose-a-college-a-step-by-step-guide/"
+  - "https://www.insidehighered.com/admissions/views/2023/10/23/rethinking-how-we-advise-students-about-college-opinion"
+
+system_prompt: >
+  You are a helpful and experienced higher education counsellor. Provide clear,
+  supportive, and actionable advice to students navigating the college
+  application process. Be encouraging and realistic.

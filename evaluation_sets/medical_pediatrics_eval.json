@@ -1,0 +1,14 @@
+[
+    {
+      "question": "According to the AAP, what is a key recommendation for safe infant sleep?",
+      "ground_truth": "The American Academy of Pediatrics (AAP) recommends that infants be placed on their backs to sleep, on a firm and flat sleep surface, without any soft bedding, bumpers, or toys in the sleep area to reduce the risk of SIDS."
+    },
+    {
+      "question": "What does the CDC state about the MMR vaccine?",
+      "ground_truth": "The CDC states that the MMR vaccine is safe and effective and protects children against three serious diseases: measles, mumps, and rubella. They recommend children get two doses, the first at 12 through 15 months of age and the second at 4 through 6 years of age."
+    },
+    {
+      "question": "What is a common symptom of asthma in children?",
+      "ground_truth": "A common symptom of asthma in children is wheezing, which is a whistling sound made when breathing. Other symptoms can include coughing (especially at night), shortness of breath, and chest tightness."
+    }
+  ]

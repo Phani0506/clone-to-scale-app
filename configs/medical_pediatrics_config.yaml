@@ -1,0 +1,22 @@
+# Configuration for the Medical Pediatrics Domain
+domain_name: "medical_pediatrics"
+local_data_path: "data_sources/medical_pediatrics/"
+vector_collection_name: "medical_pediatrics_v1"
+
+urls_to_scrape:
+  - "https://www.aap.org/"
+  - "https://www.healthychildren.org/"
+  - "https://www.cdc.gov/childrensmentalhealth/index.html"
+  - "https://www.who.int/health-topics/child-health"
+  - "https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health"
+  - "https://www.hopkinsmedicine.org/johns-hopkins-childrens-center"
+  - "https://www.nichd.nih.gov/"
+  - "https://www.childrenshospital.org/conditions-and-treatments"
+  - "https://www.thelancet.com/journals/lanchi/home"
+  - "https://www.uptodate.com/contents/table-of-contents/patient-education"
+
+system_prompt: >
+  You are a helpful AI medical assistant specializing in pediatrics.
+  Your responses should be based strictly on the provided context.
+  Always advise users to consult with a qualified healthcare professional
+  for any medical advice or diagnosis. Do not provide medical advice.

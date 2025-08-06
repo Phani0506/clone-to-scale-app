@@ -1,0 +1,14 @@
+[
+    {
+      "question": "What is a common mistake students make on their college application essay?",
+      "ground_truth": "A common mistake is trying to guess what admissions officers want to hear instead of writing with an authentic voice. Another is simply listing accomplishments rather than showing personal growth and reflection through a compelling story."
+    },
+    {
+      "question": "What is the purpose of the FAFSA?",
+      "ground_truth": "The FAFSA, or Free Application for Federal Student Aid, is the form that students and families fill out to apply for federal financial aid for college, including grants, loans, and work-study funds."
+    },
+    {
+      "question": "How important are extracurricular activities in a college application?",
+      "ground_truth": "Extracurricular activities are important because they demonstrate a student's passions, commitment, and time management skills. Colleges often look for depth and leadership in a few activities rather than superficial involvement in many."
+    }
+  ]

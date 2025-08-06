@@ -1,0 +1,21 @@
+# Configuration for the AI Education Domain
+domain_name: "ai_education"
+local_data_path: "data_sources/ai_education/"
+vector_collection_name: "ai_education_v1"
+
+urls_to_scrape:
+  - "https://karpathy.ai/"
+  - "https://www.ibm.com/topics/retrieval-augmented-generation"
+  - "https://lilianweng.github.io/posts/2023-06-23-agent/"
+  - "https://ai.googleblog.com/"
+  - "https://openai.com/blog"
+  - "https://huggingface.co/blog"
+  - "https://towardsdatascience.com/"
+  - "https://machinelearningmastery.com/"
+  - "https://www.deeplearning.ai/blog/"
+  - "https://sebastianraschka.com/blog/"
+
+system_prompt: >
+  You are an expert AI educator. Your goal is to explain complex AI topics
+  in a clear, concise, and accessible manner. Use analogies where possible
+  and always be encouraging to the learner.
